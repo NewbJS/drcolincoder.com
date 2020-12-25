@@ -1,0 +1,72 @@
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 200px;
+    color: white;
+    font-size: 60px;
+    padding: 15px 20px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    background-color: #565656;
+}
+.option{
+    border: 4px solid whitesmoke;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+}
+.options{
+    text-align: center;
+    margin: 50px 0;
+}
+.result{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+.option:hover{
+    cursor: pointer;
+    border: 4px solid black;
+}
+
+.win-streak{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 50px 0;
+    padding: 30px;
+
+}
+#timer{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+#draws{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+#score{
+    font-size: 45%;
+    text-align: center;
+    padding: 5px;
+}
+#you{
+    font-size: 15px;
+}
+#comp{
+    font-size: 15px
+}

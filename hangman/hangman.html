@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device.width, initial-scale1.0">
+    <meta http-equiv="X-UA Compatible" content="ie=edge">
+    <title>Hangman</title>
+    <script src="hangman.js" defer></script>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body>
+<h1 class="guess-left">You have <span id="guesses">6</span> guesses left</h1>
+<h1 id="word"></h1>
+<div id="youwon"></div>
+<div>
+    <pre id='hangman'></pre>
+</div>
+<div id="all-buttons" class="buttons-all"></div>
+<div class="retry">
+    <button id="play-again" onclick="again()">Play Again</button>
+</div>
+</body>
+</html>

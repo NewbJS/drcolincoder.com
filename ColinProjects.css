@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: helvetica;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.game-img {
+    height: 400px;
+    width: 400px;
+    display: block;
+}
+
+.game-title {
+    font-size: 50px;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 70px;
+}
+
+.game {
+    border: 4px solid black;
+    box-sizing: border-box;
+    width: 408px;
+    margin: 10px;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#para {
+    font-size: 20px;
+}
+
+#link {
+    font-size: 25px;
+}

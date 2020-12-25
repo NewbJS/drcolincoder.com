@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Input Field</title>
+        <script type="text/javascript" src="input_game.js"></script>
+        <style>
+            *, *::before, *::after {
+                box-sizing: border-box;
+                font-family: Gotham Rounded;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100vw;
+                height: 100vh;
+                background-color: rgb(58, 243, 12);
+            }
+
+            .container {
+                width: 300px;
+                height: 200px;
+                max-width: 80%;
+                background-color: rgba(26, 206, 182, 0.897);
+                padding: 10px;
+                border-radius: 25px;
+                box-shadow: 0 0 10px 2px;
+            }
+            #btn {
+                border: 3px solid hsl(345, 100%, 30%);
+                background-color: hsl(300, 46%, 36%);
+                border-radius: 5px;
+                padding: 5px 10px;
+                color: white;
+                outline: none;
+                height:50px;
+                width:100px;
+            }
+            #inp{
+                border-radius: 5px;
+                height: 50px;
+                width: 100px;
+                font-size: 15px;
+            }
+
+            #btn:hover {
+                border-color: black;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <div id="divtext">Type in what I ask! Type in 's'!</div>
+            <input id="inp" placeholder="Enter here" onpaste="return false;">
+            <button id="btn" onclick="inputText()">Submit</button>
+            <h1 id="header"></h1>
+        </div>
+    </body>
+</html>

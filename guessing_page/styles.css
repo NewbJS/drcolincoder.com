@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+    font: Helvetica;
+}
+
+body {
+    background-color: beige;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.num-sel {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vh;
+    height: 10vh;
+    font-size: large;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    outline: none;
+}
+
+.btn {
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 34vh;
+    height: 10vh;
+    background-color: aqua;
+    font-size: 25px;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+   
+}
+
+.guess-info {
+    position: fixed;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
